@@ -9,10 +9,29 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@mediapipe/pose": "^0.5.1635988162",
+    "@react-native-async-storage/async-storage": "^1.17.11",
+    "@tensorflow-models/mobilenet": "^2.1.0",
+    "@tensorflow-models/pose-detection": "^2.0.0",
+    "@tensorflow/tfjs": "^4.1.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.1.0",
+    "@tensorflow/tfjs-converter": "^4.1.0",
+    "@tensorflow/tfjs-core": "^4.1.0",
+    "@tensorflow/tfjs-react-native": "^0.8.0",
+    "async-storage": "^0.1.0",
     "expo": "~47.0.8",
+    "expo-camera": "~13.1.0",
+    "expo-file-system": "~15.1.1",
+    "expo-gl": "^12.0.1",
+    "expo-gl-cpp": "^11.4.0",
+    "expo-image-manipulator": "~11.0.0",
+    "expo-image-picker": "~14.0.2",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "react-native-fs": "^2.20.0",
+    "react-native-gesture-handler": "^2.8.0",
+    "react-native-svg": "13.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
